@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.p-group .inline-text {
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.topbar {
+    margin: 0 0 60px 0;
+    padding: 10px 30px;
+    background: #eee;
+}
+
+.title {
+    margin: 0 0 90px 0;
+    font-size: 36px;
+    color: #e49f20;
+}
+
+.sub-title {
+    font-style: italic;
+    font-size: 48px;
+    color: #cf5600;
+}
+
+#score {
+    font-style: italic;
+    font-size: 48px;
+    color: #cf5600;
+}
+
+.table {
+    margin: 100px 20px 0 20px;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px #eee solid;
+}
+
+.bg-snake {
+    background: #e65f00;
+}
+
+.bg-food {
+    background: #14d542;
+}
+
+.circle {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.r-head {
+    height: 100%;
+    border-radius: 0 50% 50% 0;
+}
+
+.u-head {
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+}
+
+.d-head {
+    height: 100%;
+    border-radius: 0 0 50% 50%;
+}
+
+.l-head {
+    height: 100%;
+    border-radius: 50% 0 0 50%;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.panel {
+    flex: 1 1;
+    height: 100vh;
+    padding: 50px 0 0 60px;
+    background: #f2f0e8;
+}
+
+.btn {
+    margin: 0 30px 30px 0;
+    padding: 10px 20px;
+    border: #cf5600 2px solid;
+    border-radius: 20%;
+    outline: none;
+    background: #f2f0e8;
+    font-size: 24px;
+    color: #cf5600;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #cf5600;
+    color: #fff;
+}
